@@ -60,7 +60,7 @@ const styles = {
 };
 
 const CreatePost = ({ showModal, setShowModal }) => {
-    const apiKey = "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";
+    const apiKey = "YOUR_API_KEY";
 
     const [prompt, setPrompt] = useState("");
     const [password, setPassword] = useState("");
