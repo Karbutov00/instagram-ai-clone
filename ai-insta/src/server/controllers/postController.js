@@ -9,8 +9,8 @@ const cloudinary = require("cloudinary").v2;
 // configures cloudinary for uploading to cloud
 cloudinary.config({
     cloud_name: "dm0uvfpi6",
-    api_key: "821387868866598",
-    api_secret: "byIGjAXrYgan5LKcsb1nQoPLgQM",
+    api_key: "YOUR_API_KEY",
+    api_secret: "YOUR_API_SECRET_KEY",
 });
 
 postController.getAllPosts = async (req, res, next) => {
