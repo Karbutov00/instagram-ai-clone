@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const userController = require("./controllers/userController");
 const postController = require("./controllers/postController");
 mongoose.connect(
-    "mongodb+srv://karbutov00:karbutov00@cluster0.3npv9wz.mongodb.net/?retryWrites=true&w=majority",
+    "YOUR_MONGO_URI",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
